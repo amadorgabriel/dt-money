@@ -23,7 +23,6 @@ export function App() {
       <Dashboard />
 
       <NewTransactionModal isOpen={isNewTransactionModalOpen} onRequestClose={handleCloseNewTransactionModal} />
-
       <GLobalStyle />
     </>
   );
